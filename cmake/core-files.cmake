@@ -313,6 +313,7 @@ set(MBGL_CORE_FILES
     include/mbgl/style/layer.hpp
     include/mbgl/style/layer_type.hpp
     include/mbgl/style/light.hpp
+    include/mbgl/style/light_properties.hpp
     include/mbgl/style/position.hpp
     include/mbgl/style/property_value.hpp
     include/mbgl/style/source.hpp
@@ -327,6 +328,7 @@ set(MBGL_CORE_FILES
     src/mbgl/style/layer_impl.hpp
     src/mbgl/style/layer_observer.hpp
     src/mbgl/style/layout_property.hpp
+    src/mbgl/style/light.cpp
     src/mbgl/style/observer.hpp
     src/mbgl/style/paint_property.hpp
     src/mbgl/style/parser.cpp
